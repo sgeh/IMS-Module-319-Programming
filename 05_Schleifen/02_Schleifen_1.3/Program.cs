@@ -1,0 +1,32 @@
+﻿using System;
+
+namespace Bwz.Rappi
+{
+	class Program
+	{
+		static void Main()
+		{
+			Console.WriteLine("Bitte Zahl eingeben:");
+			string inputAsString = Console.ReadLine();
+			Console.WriteLine(); 
+
+			int input = Convert.ToInt32(inputAsString);
+			int i = 0;
+			
+			while (i <= input)
+            {
+				/**
+				 * Alternative:
+				 *   if (i % 2 == 0)
+				 *   {
+				 *      Console.WriteLine($"{i}");
+				 *   }
+				 */
+
+				Console.WriteLine($"{i}");
+				i = i + 1;
+			}
+		}
+
+	}
+}
