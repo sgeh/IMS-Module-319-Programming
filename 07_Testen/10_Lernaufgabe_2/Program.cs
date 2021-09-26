@@ -6,6 +6,9 @@ namespace Bwz.Rappi
 	{
 		static void Main()
 		{
+			bool hasError = false;
+			double result = 0;
+
 			Console.WriteLine("Bitte geben Sie einen ersten Operanden ein:");
 			string leftOpAsString = Console.ReadLine();
 			double leftOp = Convert.ToDouble(leftOpAsString);
@@ -20,9 +23,6 @@ namespace Bwz.Rappi
 			Console.WriteLine("\nBitte geben Sie einen zweiten Operanden ein:");
 			string rightOpAsString = Console.ReadLine();
 			double rightOp = Convert.ToDouble(rightOpAsString);
-
-			bool hasError = false;
-			double result = 0;
 
 			switch (operand)
 			{
@@ -66,7 +66,7 @@ namespace Bwz.Rappi
             {
 				Console.WriteLine("\nResultat:");
 				Console.WriteLine($" {leftOp,10:0.000}");
-				Console.WriteLine($"+{rightOp,10:0.000}");
+				Console.WriteLine($"{operand}{rightOp,10:0.000}");
 				Console.WriteLine($"={result,10:0.000}");
 			}
 		}
