@@ -27,8 +27,23 @@ namespace Bwz.Rappi
 					Console.WriteLine($"Invalid input, encryption cancelled.");
 					break;
 				}
-	
-				encrypted[i] = Convert.ToChar(asciiValue - 30); // Convert from a to C (Caesar Cipher)
+
+				int asciiEncrypted = asciiValue - 30;  // convert from a to C (Caesar Cipher)
+
+				/**
+				 * Optional - edge case:
+				 *  the result may be larger than 'Z' (90)
+				 *  e.g. 'z' - 30 (122 - 30) results in '\' (92), thus reduce result by 26
+				 *  which means,
+				 *    > '[' (91) results in 'A',
+				 *    > '\' (92) results in 'B'
+				 *    > ...
+				 */
+				if (asciiEncrypted > 90)
+                {
+					asciiEncrypted = asciiEncrypted - 26;
+				}
+				encrypted[i] = Convert.ToChar(asciiEncrypted);
 			}
 
 			Console.WriteLine($"\nEncrypted data:");
