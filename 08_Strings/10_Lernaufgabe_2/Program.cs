@@ -4,6 +4,11 @@ namespace Bwz.Rappi
 {
 	class Program
 	{
+		/**
+		 * Solution for exercise "Mexican Army Cipher" (additional task).
+		 * 
+		 * Remarks: "Caesar Code" solution is located at ..\04_Caesar-Cipher_1.
+		 */
 		static void Main()
 		{
 			char[] encrypted = { ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' };
