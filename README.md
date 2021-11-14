@@ -13,6 +13,5 @@ Schedule | Topic
 06 | [Code-Analyse und Debugging](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/06_Debugging)
 07 | [Testen](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/07_Testen)
 08 | [Strings und Arrays](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/08_Strings)
-09 | [Methoden und -Aufrufe](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/09_Methoden)
-10 | [Operatoren und Repetition](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/10_Operatoren)
-11 | [Praxisaufgabe](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/11_Praxisaufgabe)
+09 | [Methoden und -Aufrufe / Operatoren](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/09_Methoden)
+10 | [Praxisaufgabe](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/10_Praxisaufgabe)
