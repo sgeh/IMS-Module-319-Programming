@@ -15,3 +15,4 @@ Schedule | Topic
 08 | [Strings und Arrays](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/08_Strings)
 09 | [Methoden und -Aufrufe / Operatoren](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/09_Methoden)
 10 | [Praxisaufgabe](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/10_Praxisaufgabe)
+11 | [Objekt-basierte Programmierung](https://github.com/sgeh/IMS-Module-319-Programming/tree/main/11_ObP)
