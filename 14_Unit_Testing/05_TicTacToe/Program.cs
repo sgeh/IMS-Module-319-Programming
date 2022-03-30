@@ -24,7 +24,7 @@ namespace Bwz.Rappi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmTicTacToe_v3());
+            Application.Run(new FrmTicTacToe());
         }
     }
 }
