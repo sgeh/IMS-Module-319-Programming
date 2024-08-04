@@ -1,2 +1,2 @@
-# Module-319-Programming
-Solutions and templates for ICT Module 319.
+# IMS Module 319 - Programming in C#
+This repository contains C# (.NET) sources for Modul 319 "Applikationen entwerfen und implementieren".
