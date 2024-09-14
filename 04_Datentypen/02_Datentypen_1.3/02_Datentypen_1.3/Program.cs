@@ -2,8 +2,8 @@
 uint uintMin = uint.MinValue;
 uint uintMax = uint.MaxValue;
 
-Console.WriteLine($"Char value range start: {uintMin}");
-Console.WriteLine($"Char value range end: {uintMax}");
+Console.WriteLine($"UInt value range start: {uintMin}");
+Console.WriteLine($"UInt value range end: {uintMax}");
 
 
 // Output for sbyte
