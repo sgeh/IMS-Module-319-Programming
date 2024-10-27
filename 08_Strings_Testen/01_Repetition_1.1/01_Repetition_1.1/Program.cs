@@ -13,13 +13,13 @@ while (!hasError)
     Console.WriteLine($" + Plus");
     Console.WriteLine($" / Division");
     Console.WriteLine(" * Multiplikation");
-    string operand = Console.ReadLine();
+    string op = Console.ReadLine();
 
     Console.WriteLine("\nBitte geben Sie einen zweiten Operanden ein:");
     string rightOpAsString = Console.ReadLine();
     double rightOp = Convert.ToDouble(rightOpAsString);
 
-    switch (operand)
+    switch (op)
     {
         case "+":
             {
@@ -61,7 +61,7 @@ while (!hasError)
     {
         Console.WriteLine("\nResultat:");
         Console.WriteLine($" {leftOp,21:0.0000000000}");
-        Console.WriteLine($"{operand}{rightOp,21:0.0000000000}");
+        Console.WriteLine($"{op}{rightOp,21:0.0000000000}");
         Console.WriteLine($"={result,21:0.0000000000}\n");
     }
 }
